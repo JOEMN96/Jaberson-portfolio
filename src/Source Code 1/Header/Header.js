@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Header.scss';
 import MainLogo from '../Image/Mianlogo/HomeMainLogo.png';
 import Toggle from 'react-toggle';
@@ -12,13 +12,13 @@ export default function Header({ isDark, setIsDark }) {
 
   return (
     <div className="mainHeader">
-      <nav class="navbar navbar-expand-md p-0">
-        <div class="container-fluid header" id="leftRightPadding">
-          <a class="navbar-brand" href="#Home">
+      <nav className="navbar navbar-expand-md p-0">
+        <div className="container-fluid header" id="leftRightPadding">
+          <a className="navbar-brand" href="#Home">
             <img src={MainLogo} id="MainLogo" alt="" />
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -27,27 +27,31 @@ export default function Header({ isDark, setIsDark }) {
             id="menuIcon"
             aria-label="Toggle navigation"
           >
-            <i class="fas fa-bars" id="menuIcons"></i>
+            <i className="fas fa-bars" id="menuIcons"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto d-flex">
-              <li class="nav-item" href="#AboutMe">
-                <a class="nav-link active" aria-current="page" href="#About">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav ms-auto d-flex">
+              <li className="nav-item" href="#AboutMe">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="#About"
+                >
                   About
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#mySkills">
+              <li className="nav-item">
+                <a className="nav-link" href="#mySkills">
                   Skills
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Portfolio">
+              <li className="nav-item">
+                <a className="nav-link" href="#Portfolio">
                   Portfolio
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Contact">
+              <li className="nav-item">
+                <a className="nav-link" href="#Contact">
                   Contact
                 </a>
               </li>

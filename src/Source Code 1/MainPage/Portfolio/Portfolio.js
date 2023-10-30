@@ -1,7 +1,6 @@
 import React from 'react';
 import './Portfolio.scss';
 import P1 from '../../Image/Portfolio/1.png';
-import P2 from '../../Image/Portfolio/2.png';
 import P3 from '../../Image/Portfolio/3.png';
 import P4 from '../../Image/Portfolio/portfolio-3.png';
 

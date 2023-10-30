@@ -11,7 +11,6 @@ import AppSkills from './Applications/AppSkills';
 import { useEffect } from 'react';
 
 export default function MainPage1() {
-  const [themes, setthemes] = useState('');
   const [isDark, setIsDark] = useState(null);
 
   let prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -21,7 +20,7 @@ export default function MainPage1() {
     if (!darkModeToggled) {
       window.localStorage.setItem('theme', 'light');
     } else {
-      setIsDark(window.localStorage.getItem('theme') == 'dark' ? true : false);
+      setIsDark(window.localStorage.getItem('theme') === 'dark' ? true : false);
     }
 
     if (prefersDark) {
@@ -31,7 +30,7 @@ export default function MainPage1() {
 
   return (
     <div>
-      <div className={'mainPage ' + (isDark ? 'dark-mode ' : '')} id={themes}>
+      <div className={'mainPage ' + (isDark ? 'dark-mode ' : '')}>
         <div className="Header">
           <Header setIsDark={setIsDark} isDark={isDark} />
         </div>

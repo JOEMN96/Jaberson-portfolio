@@ -89,9 +89,9 @@ export default function Home() {
                       <path
                         d="M4 20L10.768 13.232M13.228 10.772L20 4M4 4L15.733 20H20L8.267 4H4Z"
                         stroke="#1c1c1c"
-                        stroke-width="2px"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2px"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                   </a>
@@ -207,9 +207,9 @@ export default function Home() {
                       <path
                         d="M4 20L10.768 13.232M13.228 10.772L20 4M4 4L15.733 20H20L8.267 4H4Z"
                         stroke="#1c1c1c"
-                        stroke-width="2px"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2px"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                   </a>
