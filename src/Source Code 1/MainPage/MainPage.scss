@@ -1,0 +1,19 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.Themes {
+  position: fixed;
+  z-index: -9999;
+}
+
+.mainHeader .react-toggle-track-x {
+  top: 8px;
+  right: 12px;
+}
+
+.mainHeader .react-toggle-track-check {
+  top: 8px;
+  left: 3px;
+}

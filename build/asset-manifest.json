@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8be51643.css",
+    "main.js": "/static/js/main.1c7fd5ec.js",
+    "static/media/1.png": "/static/media/1.9a9cce6d95db26b6fd4a.png",
+    "static/media/Resume - Jaberson.pdf": "/static/media/Resume - Jaberson.e002aa68d0bd94243a21.pdf",
+    "static/media/3.png": "/static/media/3.307efdd884f967588ba6.png",
+    "static/media/Jaberson.png": "/static/media/Jaberson.a6a537f39f8c52bd3e04.png",
+    "static/media/Skills.png": "/static/media/Skills.672a9eba702382b370fe.png",
+    "static/media/AboutImg.png": "/static/media/AboutImg.64a562b31dd899cc47ab.png",
+    "index.html": "/index.html",
+    "main.8be51643.css.map": "/static/css/main.8be51643.css.map",
+    "main.1c7fd5ec.js.map": "/static/js/main.1c7fd5ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8be51643.css",
+    "static/js/main.1c7fd5ec.js"
+  ]
+}

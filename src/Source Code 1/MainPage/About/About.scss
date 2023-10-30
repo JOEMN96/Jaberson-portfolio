@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Lato:wght@700&family=Teko&display=swap');
+
+.mainAbout {
+    margin-top: 100px;
+}
+
+.AboutImage {
+    width: 100%;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    height: auto;
+
+    img {
+        width: 70%;
+        height: auto;
+    }
+}
+
+.AboutMe {
+    width: 100%;
+    height: auto;
+
+    .AboutTitle {
+        font-size: 48px;
+        color: #1C1C1C;
+        font-family: 'Lato', sans-serif;
+        text-align: start;
+
+    }
+
+
+    .content {
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        line-height: 30px;
+        color: #585757;
+        margin-top: 50px;
+        text-align: start;
+    }
+
+    .buttonsHere {
+        margin-top: 50px;
+        transform: skewX(-10deg);
+    }
+    .AboutBtn{
+        // background: #F98600;
+    }
+    #hereMe {
+        background: #F98600;
+        width: 200px;
+        height: 100%;
+        font-size: 20px;
+        border-radius: 0;
+        color: #E8E8E8;
+    }
+
+    .fa-arrow-right {
+        background: #F98600;
+        width: 50px;
+        height: 100%;
+        font-size: 30px;
+        color: #E8E8E8;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hereMe1 {
+        display: flex;
+    }
+
+    #CVBtns {
+
+        border: 1px solid #F98600;
+        border-radius: none;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        margin: 0 0px 0 15px;
+        color: rgba(192, 192, 194, 1);
+        font-family: 'Josefin Sans', sans-serif;
+        background: transparent;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            color: #1C1C1C;
+
+            span {
+                border-radius: none;
+            }
+        }
+
+        &:hover {
+            border: 2px solid #F98600;
+            background-color: white;
+            border-radius: none;
+
+            a {
+
+                // color: white;
+                span {
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+.HiThere {
+    margin-top: 50px;
+    text-align: start;
+}
+
+@media only screen and (max-width:992px) {
+    .mainAbout {
+        margin-top: 0px;
+    }
+
+    .HiThere {
+        margin-top: 30px;
+
+    }
+
+    .AboutImage {
+        display: none;
+    }
+
+    .AboutMe {
+        .AboutTitle {
+            font-size: 35px;
+
+            .AboutTitle {
+                font-size: 25px
+            }
+
+        }
+
+        #hereMe {
+            // background: #F98600;
+            width: 120px;
+            height: 100%;
+            font-size: 20px;
+            border-radius: 0;
+            color: #E8E8E8;
+        }
+
+        .content {
+            font-size: 20px;
+            margin-top: 30px;
+        }
+
+        .fa-arrow-right {
+            // background: #F98600;
+            width: 40px;
+            height: 100%;
+            font-size: 18px;
+            color: #E8E8E8;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #CVBtns {
+
+            border: 0px;
+            border-radius: none;
+            width: 100%;
+            height: 80%;
+            // padding-left: 20px;
+            color: #585757;
+            font-family: 'Josefin Sans', sans-serif;
+            text-decoration: underline;
+            background: transparent;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                color: #585757;
+
+                span {
+                    // transform: skewX(10deg);
+                    color: #585757;
+                    font-size: 17px;
+                    border-radius: none;
+                }
+            }
+
+            &:hover {
+                border: 0px;
+            }
+        }
+    }
+
+    .buttonsHere {
+        margin-top: 30px;
+        transform: skewX(0deg);
+        text-align: start;
+
+
+        .hereMe1 {
+            text-align: start;
+            align-items: start;
+        }
+    }
+
+    #leftRightPadding {
+        padding: 0 5% 0 5%;
+    }
+
+    .HireMeBtn {
+        text-align: start;
+        justify-content: start;
+    }
+
+    .CVBtnHere {
+        margin-top: 40px;
+        font-size: 12px;
+    }
+
+    .AboutMe {
+        margin-top: 50px;
+    }
+
+
+}

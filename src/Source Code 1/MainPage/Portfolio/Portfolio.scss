@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Encode+Sans&family=Lato:wght@700&family=Teko&display=swap');
+
+.Portfolio {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    object-fit: cover;
+    position: relative;
+
+    .title {
+        font-size: 48px;
+        color: #1c1c1c;
+        font-family: 'Lato', sans-serif;
+        text-align: start;
+    }
+
+    #portfolioImg1 {
+        // margin-top: 30px;
+        background-color: #E8E8E8;
+        width: 100%;
+        height: auto;
+    }
+
+    .PImg {
+        position: relative;
+    }
+
+    .portfolioImg {
+        margin: 50px 0 20px 0;
+        position: relative;
+
+        .text {
+            display: none;
+        }
+
+        &:hover {
+            .hoverSlide {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                transition: 2s;
+                font-family: 'Josefin Sans', sans-serif;
+                padding: 10%;
+                background-color: #1c1c1cb7;
+
+                // .text {
+                //     font-family: 'Josefin Sans', sans-serif;
+                //     object-fit: cover;
+                //     font-size: 30px;
+                //     color: #FFFFFF;
+                //     transition: 2s;
+                //     display: inline;
+                // }
+
+                .text {
+                    color: white;
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 30px;
+                    position: absolute;
+                    display: inline;
+                    top: 50%;
+                    left: 50%;
+                    -webkit-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.portfolioImg1:hover .hoverSlide {
+    opacity: 1;
+}
+
+
+
+@media only screen and (max-width:992px) {
+    .Portfolio {
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+
+        position: relative;
+
+        .title {
+            font-size: 35px;
+            color: #1c1c1c;
+            font-family: 'Lato', sans-serif;
+            text-align: start;
+        }
+
+        #portfolioImg1 {
+            margin-top: 30px;
+        }
+
+        #PImg3 {
+            display: none;
+        }
+    }
+}

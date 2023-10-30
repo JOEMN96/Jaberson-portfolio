@@ -1,0 +1,70 @@
+.mySkills {
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+
+    .title {
+        font-size: 48px;
+        color: #1c1c1c;
+        font-family: 'Lato', sans-serif;
+        text-align: start;
+    }
+
+    .EveryDay {
+        margin-top: 50px;
+        text-align: start;
+    }
+
+    .content {
+        font-size: 18px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        color: #585757;
+        text-align: justify;
+    }
+
+}
+
+@media only screen and (max-width : 992px) {
+
+    .mySkills {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+
+        .title {
+            font-size: 35px;
+            color: #1c1c1c;
+            font-family: 'Lato', sans-serif;
+            text-align: start;
+        }
+
+        .EveryDay {
+            margin-top: 30px;
+
+            img {
+                width: 230px;
+                height: auto;
+            }
+        }
+
+        .content {
+            font-size: 18px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 400;
+            color: #585757;
+            text-align: start;
+        }
+
+    }
+
+    .skillsLevel {
+        display: none;
+    }
+
+    #mySkills {
+
+        margin: 50px 0 0 0;
+    }
+
+}
